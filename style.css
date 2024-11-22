@@ -1,0 +1,130 @@
+/* Resetando algumas margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f7f7f7;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(135deg, #ff4d4d, #ff9966, #ffcc66); /* Gradiente harmônico com vermelho */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+/* Seções principais */
+section {
+    padding: 40px 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Sobre Mim */
+#sobre-mim {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#sobre-mim h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#sobre-mim p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Meus Hobbies */
+#hobbies {
+    background: #f0f8ff;
+}
+
+.hobbies-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.hobby-item {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.hobby-item:hover {
+    transform: translateY(-10px);
+}
+
+.hobby-item h3 {
+    font-size: 1.5rem;
+    color: #ff4d4d;
+}
+
+.hobby-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Contato */
+#contato {
+    background: #ffffff;
+    text-align: center;
+}
+
+.contact-links {
+    margin-top: 20px;
+}
+
+.contact-btn {
+    background: #ff4d4d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 1.1rem;
+    transition: background 0.3s;
+}
+
+.contact-btn:hover {
+    background: #ff4d4d;
+}
+
+/* Rodapé */
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
